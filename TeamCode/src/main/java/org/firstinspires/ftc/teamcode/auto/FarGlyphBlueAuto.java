@@ -9,9 +9,8 @@ public class FarGlyphBlueAuto extends BaseAutonomous {
     public void runOpMode() {
         super.runOpMode();
 
-        placeGlyph();
 
-        /*encoderAccDrive(75,0.3);
+        encoderAccDrive(75,0.3);
         sleep(250);
 
 
@@ -52,7 +51,7 @@ public class FarGlyphBlueAuto extends BaseAutonomous {
                 placeGlyph();
 
                 break;
-        }*/
+        }
 
     }
 

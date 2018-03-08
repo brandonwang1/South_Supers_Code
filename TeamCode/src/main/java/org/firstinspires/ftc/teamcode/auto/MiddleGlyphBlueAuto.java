@@ -15,23 +15,23 @@ public class MiddleGlyphBlueAuto extends BaseAutonomous {
             case UNKNOWN: //Should throw an error but just does left for now.
             case LEFT:
                 encoderAccDrive(58, 0.3);
-                sleep(500);
+                sleep(250);
                 gyroTurn(-70);
-                sleep(500);
+                sleep(250);
                 encoderAccDrive(20, 0.3);
                 break;
             case CENTER:
                 encoderAccDrive(79, 0.3);
-                sleep(500);
+                sleep(250);
                 gyroTurn(-70);
-                sleep(500);
+                sleep(250);
                 encoderAccDrive(20, 0.3);
                 break;
             case RIGHT:
                 encoderAccDrive(102, 0.3);
-                sleep(500);
+                sleep(250);
                 gyroTurn(-70);
-                sleep(500);
+                sleep(250);
                 encoderAccDrive(26, 0.3);
                 break;
         }

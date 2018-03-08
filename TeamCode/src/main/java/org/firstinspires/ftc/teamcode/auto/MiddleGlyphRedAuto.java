@@ -15,27 +15,27 @@ public class MiddleGlyphRedAuto extends BaseAutonomous {
             case UNKNOWN: //Should throw an error but just does left for now.
             case LEFT:
                 encoderAccDrive(113, -0.3);
-                sleep(500);
+                sleep(250);
                 gyroTurn(-110);
-                sleep(500);
+                sleep(250);
                 encoderAccDrive(17, 0.3);
-                sleep(500);
+                sleep(250);
                 break;
             case CENTER:
                 encoderAccDrive(90, -0.3);
-                sleep(500);
+                sleep(250);
                 gyroTurn(-110);
-                sleep(500);
+                sleep(250);
                 encoderAccDrive(20, 0.3);
-                sleep(500);
+                sleep(250);
                 break;
             case RIGHT:
                 encoderAccDrive(105, -0.3);
-                sleep(500);
+                sleep(250);
                 gyroTurn(-60);
-                sleep(500);
+                sleep(250);
                 encoderAccDrive(20, 0.3);
-                sleep(500);
+                sleep(250);
                 break;
         }
         placeGlyph();

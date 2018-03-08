@@ -52,7 +52,7 @@ public abstract class BaseAutonomous extends LinearOpMode {
         telemetry.update();
         sleep(getDelay());
 
-        //removeJewel();
+        removeJewel();
 
     }
     // Grabs the glyph(s)
